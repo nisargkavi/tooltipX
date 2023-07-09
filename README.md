@@ -103,6 +103,7 @@ For support or if you have any feedback, email hello@nisargkavi.in / kavinisarg@
 ## Contributing
 
 Contributions are always welcome!
+Special Thanks to [Hardik Desai](https://thehardik.in)
 
 
 ## License

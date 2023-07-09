@@ -102,7 +102,7 @@ For support or if you have any feedback, email hello@nisargkavi.in / kavinisarg@
 
 ## Contributing
 
-Contributions are always welcome!
+Contributions are always welcome! <br/>
 Special Thanks to [Hardik Desai](https://thehardik.in)
 
 

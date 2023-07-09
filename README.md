@@ -13,7 +13,7 @@ TooltipX is a lightweight library with no dependencies that allows you to add to
 
 * Import Javascript using CDN:
 ```javascript
-<script src="https://cdn.jsdelivr.net/gh/"></script>
+<script src="https://cdn.jsdelivr.net/gh/nisargkavi/tooltipX@main/src/js/tooltip.min.js"></script>
 ```
 ## Usage/Examples
 

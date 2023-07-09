@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TooltipX Example</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+        button {
+            background: #0079ff;
+            border-radius: 4px;
+            color: #fff;
+            padding: 0.5rem 0;
+            width: 160px;            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button tooltipX-position="left" tooltipX tooltipX-size="sad" tooltipX-text="Hello!" tooltipX-color="#000" tooltipX-bgcolor="#57fcbc">Button</button>
+        <div id="dynamicTooltip"></div>
+    </div>
+
+    <script type="text/javascript" src="../src/js/tooltip.min.js"></script>
+    <script>
+        console.warn("Read the documentation for more information!");
+        function addTooltip() {
+            var html = `<button tooltipX-position="top" tooltipX tooltipX-text="Dynamic!" tooltipX-color="#000" tooltipX-bgcolor="#6fff1c">Click Me!</button>`;
+            document.getElementById('dynamicTooltip').innerHTML = html;
+            TooltipX.refresh();
+        }
+    </script>
+</body>
+</html>
